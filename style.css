@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+margin-left: 50px;
+height: 1200px;
+}
+
+.blok{
+    width: 50%;
+    height: 300px;
+    font-size: 36px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.absolute{
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    /* left: 0px;
+    top: 0px; */
+    right: -20px;
+    bottom: -30px;
+}
+
+.relative{
+    position: relative;
+}
+
+.yellow{
+    background-color: #d0ff00;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.blue{
+    background-color: #0051ff;
+}
